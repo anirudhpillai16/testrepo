@@ -50,3 +50,4 @@ df2 <- data %>%
        group_by(Player) %>%
        arrange(Year) %>%
        mutate(pct.chg = (Salary - lag(Salary))/lag(Salary))
+#Not gonna work
